@@ -1,0 +1,17 @@
+.navbar {
+    max-height: 44px;
+    font-size: 14px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+.navbar-brand {
+    max-height: 44px;
+}
+.btn {
+    font-size: 14px;
+    max-height: 44px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}

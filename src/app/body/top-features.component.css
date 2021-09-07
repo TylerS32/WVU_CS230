@@ -1,0 +1,38 @@
+.col-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 299.4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.col-2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.col-3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 48px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.col-4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 299.4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container {
+    font-size: 14px;
+}
