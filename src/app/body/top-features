@@ -1,0 +1,53 @@
+<div class="container text-white">
+        <div class="row">
+            <div class="col-2">
+                <h4>New this season!</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h3>ESPN+ Fantasy leagues</h3>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn btn-warning"><b>Join ESPN+ To Get Started</b></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h4>How It Works</h4>
+            </div>
+            <div class="col-2">
+                <h4>What You Can Win</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">             
+                <p>Put your fantasy football skills to the test against other ESPN+ subscribers. ESPN+ Fantasy Leagues use these rules:</p>
+            </div>
+            <div class="col-2">
+                <p>By joining an ESPN+ Fantasy League, you are automatically entered for a chance to win $250,000.*</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">Draft Type</div>
+                        <div class="col-11">Snake</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">Teams</div>
+                        <div class="col-11">10</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">Scoring Type</div>
+                        <div class="col-11">Points-Per-Reception</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>*NO PURCHASE NECESSARY. 18+; US/DC only. See <a href="#" class="card-link text-white">Official Rules</a> for details.</p>
+            </div>
+        </div>    
+    </div>        
+</div>
