@@ -1,37 +1,4 @@
-.btn {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.card-text {
-    font-size: 14px;
-}
-.card-text-bottom {
-    font-size: 10px;
-}
-.card-body {
-    padding: 0px;
-}
-.col {
-    width: 100px;
-    padding: 0px;
-}
-.text-center-1 {
-    margin-top: 40px;
-}
-.bg-image {
-    margin-bottom: 4px;
-}
 .image {
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.btn-primary {
-    min-width: 289.33px;
-    min-height: 40px;
-    border-radius: 40px;
-}
-.btn-warning {
-    min-width: 289.33px;
-    min-height: 40px;
-    border-radius: 40px;
 }

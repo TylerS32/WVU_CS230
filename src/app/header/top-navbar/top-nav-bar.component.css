@@ -15,6 +15,9 @@
     padding-bottom: 0px;
     padding-top: 10px;
 }
-.col-auto {
-    margin-right:600px;
+.justify-content-start {
+    padding-left: 200px;
+}
+.justify-content-end {
+    padding-right: 200px;
 }

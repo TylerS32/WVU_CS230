@@ -1,4 +1,6 @@
 .navbar {
     max-height: 44px;
 }
-
+.justify-content-start {
+    padding-left: 210px;
+}

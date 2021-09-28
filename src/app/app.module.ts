@@ -19,6 +19,9 @@ import { FantasyFootballHomeComponent } from './body/fantasy-football-page/fanta
 import { LeagueCreationComponent } from './body/create-league-page/league-creation.component';
 import { LeagueJoiningComponent } from './body/join-league-page/league-joining.component';
 import { MockDraftingComponent } from './body/mock-draft-page/mock-drafting.component';
+import { SignUpCardComponent } from './body/main-page/sign-up-card.component';
+import { FriendsComponent } from './body/main-page/friends.component';
+import { PhoneAppComponent } from './body/main-page/phone-app.component';
 
 
 @NgModule({
@@ -38,7 +41,10 @@ import { MockDraftingComponent } from './body/mock-draft-page/mock-drafting.comp
     FantasyFootballHomeComponent,
     LeagueCreationComponent,
     LeagueJoiningComponent,
-    MockDraftingComponent
+    MockDraftingComponent,
+    SignUpCardComponent,
+    FriendsComponent,
+    PhoneAppComponent
   ],
   imports: [
     BrowserModule,
