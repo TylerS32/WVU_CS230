@@ -22,6 +22,8 @@ import { MockDraftingComponent } from './body/mock-draft-page/mock-drafting.comp
 import { SignUpCardComponent } from './body/main-page/sign-up-card.component';
 import { FriendsComponent } from './body/main-page/friends.component';
 import { PhoneAppComponent } from './body/main-page/phone-app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 
 @NgModule({
@@ -44,11 +46,14 @@ import { PhoneAppComponent } from './body/main-page/phone-app.component';
     MockDraftingComponent,
     SignUpCardComponent,
     FriendsComponent,
-    PhoneAppComponent
+    PhoneAppComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
