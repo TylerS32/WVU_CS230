@@ -10,12 +10,12 @@
     </div>
     <div class="container-fluid">
         <div class="d-flex justify-content-center">
-            <div *ngFor="let signUpCard of cards;">
-                <app-sign-up-card button={{signUpCard.button}} info={{signUpCard.info}} color={{signUpCard.color}} routing={{signUpCard.routing}}> </app-sign-up-card>
-            </div>
+            <div *ngFor="let card of cards;">
+                <app-sign-up-card button={{card.button}} color={{card.color}} info={{card.info}} routing={{card.routing}}> </app-sign-up-card>
+            
         </div>
     </div>       
     <div class="text-center text-white">
         <p class="mt-5"> Want some practice? <a routerLink="/mock_draft" routerLinkActive="active" class="link text-white"><b>Try a Mock Draft</b></a></p>
     </div>
-</div>
+</div> 

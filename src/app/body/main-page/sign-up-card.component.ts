@@ -8,9 +8,9 @@ export class SignUpCardComponent {
     @Input()
     button! :string;
     @Input()
-    info! :string;
-    @Input()
     color! :string;
+    @Input()
+    info! :string;
     @Input()
     routing! :string;
 }

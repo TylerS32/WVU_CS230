@@ -1,14 +1,14 @@
 export class SignUp {
     button: string;
-    info: string;
     color: string;
+    info: string;
     routing: string;
 
-    constructor({button, info, color, routing} :
-        {button:string, info:string, color:string, routing:string}) {
+    constructor({button, color, info, routing} :
+        {button:string, color:string, info:string, routing:string}) {
             this.button = button;
-            this.info = info;
             this.color = color;
+            this.info = info;
             this.routing = routing;
     }
 }
