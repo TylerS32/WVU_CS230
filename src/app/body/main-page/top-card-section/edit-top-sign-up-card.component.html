@@ -1,0 +1,27 @@
+<div class="bg-image mb-1" style="
+    background-image: url('https://g.espncdn.com/lm-static/onboarding/bg-stickers-ffl.png'),linear-gradient(45deg,#0D830F 0%,#41BA42 100%);
+    height: auto;
+    width: auto;
+    ">    
+    <div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <form #postForm="ngForm" (ngSubmit)="onUpdateTopCard(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text" >Button Type/Color</span>
+                    <input type="text" class="form-control me-2" required ngModel name="color">
+                    <span class="input-group-text" >Button Label</span>
+                    <input type="text" class="form-control me-2" required ngModel name="button">
+                    <span class="input-group-text" >General Info</span>
+                    <input type="text" class="form-control me-2" required ngModel name="info">
+                    <span class="input-group-text" >Routing</span>
+                    <input type="text" class="form-control" required ngModel name="routing">
+                </div>
+                <button class="btn btn-dark my-4" type="submit" [disabled]="!postForm.form.valid">
+                    Update Card
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>

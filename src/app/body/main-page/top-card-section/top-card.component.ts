@@ -8,7 +8,8 @@ import { SignUpService } from "./sign-up.service";
     styleUrls: ['./top-card.component.css']
 })
 export class TopCardComponent implements OnInit{
-    cards: SignUp[] | undefined;
+    cards: SignUp[] = [];
+    
 
     constructor(private signUpService:SignUpService) {
     }
@@ -18,12 +19,11 @@ export class TopCardComponent implements OnInit{
     }
 
     showSignUpInfo() {
-        this.signUpService.getUserInfo().subscribe((data:SignUp[]) => {
-            console.log(data);
+        this.signUpService.getUserInfo().subscribe((data: SignUp[]) => {
+            var _i = 0;
             for(var item in data) {
-                console.log(data[item]);
-                this.cards = data;
-                console.log(this.cards);
+                this.cards[_i] = data[item];
+                _i++;
             }
         })
     }

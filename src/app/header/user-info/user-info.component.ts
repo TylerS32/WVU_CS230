@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { UserInfoService } from "./top-navbar/user-info.service";
+import { UserInfoService } from "./user-info.service";
 import { UserInfo } from "./user-info.model";
 
 @Component({

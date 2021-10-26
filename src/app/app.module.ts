@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { TopCardComponent } from './body/main-page/top-card.component';
-import { TopFeaturesComponent } from './body/main-page/top-features.component';
+import { TopCardComponent } from './body/main-page/top-card-section/top-card.component';
+import { TopFeaturesComponent } from './body/main-page/new-this-season-section/top-features.component';
 import { EntertainmentComponent } from './header/top-navbar/entertainment.component';
 import { SportsComponent } from './header/top-navbar/sports.component';
 import { TopNavBarComponent2 } from './header/second-navbar/top-nav-bar-2.component';
@@ -19,11 +19,13 @@ import { FantasyFootballHomeComponent } from './body/fantasy-football-page/fanta
 import { LeagueCreationComponent } from './body/create-league-page/league-creation.component';
 import { LeagueJoiningComponent } from './body/join-league-page/league-joining.component';
 import { MockDraftingComponent } from './body/mock-draft-page/mock-drafting.component';
-import { SignUpCardComponent } from './body/main-page/sign-up-card.component';
-import { FriendsComponent } from './body/main-page/friends.component';
-import { PhoneAppComponent } from './body/main-page/phone-app.component';
+import { SignUpCardComponent } from './body/main-page/top-card-section/sign-up-card.component';
+import { FriendsComponent } from './body/main-page/compete-friends-section/friends.component';
+import { PhoneAppComponent } from './body/main-page/phone-app-section/phone-app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { UserInfoComponent } from './header/user-info.component';
+import { UserInfoComponent } from './header/user-info/user-info.component';
+import { EditTopSignUpCardComponent } from './body/main-page/top-card-section/edit-top-sign-up-card.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -47,12 +49,14 @@ import { UserInfoComponent } from './header/user-info.component';
     SignUpCardComponent,
     FriendsComponent,
     PhoneAppComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    EditTopSignUpCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
     
   ],
   providers: [],
