@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "FantasyFootball:build:production",
+            "firebaseProject": "fantasy-football-app-99410",
+            "firebaseHostingSite": "fantasy-football-app-99410"
+          }
         }
       }
     }

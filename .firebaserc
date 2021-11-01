@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fantasy-football-app-99410": {
+      "hosting": {
+        "FantasyFootball": [
+          "fantasy-football-app-99410"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fantasy-football-app-99410"
+  }
+}
