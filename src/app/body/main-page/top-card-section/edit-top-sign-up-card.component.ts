@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { DatabaseService } from "../../database.service";
 import { SignUp } from "./sign-up.model";
 import { SignUpService } from "./sign-up.service";
 
@@ -8,8 +9,8 @@ import { SignUpService } from "./sign-up.service";
 })
 export class EditTopSignUpCardComponent {
 
-    constructor(private signUpService: SignUpService) {
-
+    constructor(private signUpService: SignUpService, private dbService:DatabaseService) {
+        dbService.showData();
     }
 
     onUpdateTopCard(data: SignUp) {
