@@ -30,6 +30,8 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
+import { AuthenticationComponent } from './authentication/authentication.component';
+import { LayoutAuthComponent } from './Layout/Authentication/layout-auth.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { AngularFireModule } from '@angular/fire/compat';
     FriendsComponent,
     PhoneAppComponent,
     UserInfoComponent,
-    EditTopSignUpCardComponent
+    EditTopSignUpCardComponent,
+    AuthenticationComponent,
+    LayoutAuthComponent
   ],
   imports: [
     BrowserModule,
